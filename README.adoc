@@ -1,19 +1,19 @@
 # Implantation de l’attaque par le milieu 2-Present24, chiffrement et déchiffrement d'un Present24
 
-==== Réalisé en binome avec Maya SANTINI.
-====
+**Projet réalisé en binome avec Maya SANTINI.**
+
 
 ## Execution du code
 
 Pour compiler notre code, vous avez plusieurs options, placez-vous d'abord dans le chemin correspondant dans le terminal, puis exécutez une des commandes :
 
-* Pour lancer une *attaque*:
+* Pour lancer une *_attaque_*:
   -  `make` ou `make attaque` : indiquer vos couples (m1,c1), (m2,c2). Un couple clair-chiffré est déclaré par défaut si vous choisissez de ne rien remplir.
 
-* Pour lancer un *chiffrement*:
+* Pour lancer un *_chiffrement_*:
   - `make chiffre` : indiquer le message à chiffrer, ainsi que la clé que vous souhaitez utiliser. Vous pouvez choisir de ne pas donner de clé, auquel cas elle sera générée aléatoirement.
 
-* Pour lancer un *déchiffrement*:
+* Pour lancer un *_déchiffrement_*:
   - `make dechiffre` : indiquer le message à déchiffrer, ainsi que la clé que vous souhaitez utiliser.
 
 Autrement, vous pouvez ouvrir *attaque.py* dans un éditeur de code et le lancer, puis suivre les instructions.
