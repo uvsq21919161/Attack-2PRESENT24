@@ -3,9 +3,9 @@
 **Projet réalisé en binome avec Maya SANTINI.**
 
 
-## Execution du code
+## Execution du code Python
 
-Pour compiler notre code, vous avez plusieurs options, placez-vous d'abord dans le chemin correspondant dans le terminal, puis exécutez une des commandes :
+Pour compiler le code, vous avez plusieurs options, placez-vous d'abord dans le chemin correspondant dans le terminal, puis exécutez une des commandes :
 
 * Pour lancer une *_attaque_*:
   -  `make` ou `make attaque` : indiquer vos couples (m1,c1), (m2,c2). Un couple clair-chiffré est déclaré par défaut si vous choisissez de ne rien remplir.
@@ -17,3 +17,10 @@ Pour compiler notre code, vous avez plusieurs options, placez-vous d'abord dans 
   - `make dechiffre` : indiquer le message à déchiffrer, ainsi que la clé que vous souhaitez utiliser.
 
 Autrement, vous pouvez ouvrir *attaque.py* dans un éditeur de code et le lancer, puis suivre les instructions.
+
+## Execution du code rust
+Pour compiler le code, placez-vous d'abord dans le chemin correspondant dans le terminal, puis exécutez la commandes :
+```
+cargo run
+```
+Le code n'exécutera que l'attaque.
